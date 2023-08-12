@@ -1,0 +1,38 @@
+{
+	"name": "Pizza_types_p",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Pizza_project",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Pizza_Dataset_Project/Parquet Dataset",
+				"fileSystem": "bootcamp"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "order_details_id",
+				"type": "UTF8"
+			},
+			{
+				"name": "order_id",
+				"type": "UTF8"
+			},
+			{
+				"name": "pizza_id",
+				"type": "UTF8"
+			},
+			{
+				"name": "quantity",
+				"type": "UTF8"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

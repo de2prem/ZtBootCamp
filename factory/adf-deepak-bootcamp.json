@@ -1,0 +1,9 @@
+{
+	"name": "adf-deepak-bootcamp",
+	"location": "westus3",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f0c42290-f652-4b03-9bd5-69480a0c7e96",
+		"tenantId": "ad0b7821-86ee-46c4-841a-be99da55a98e"
+	}
+}
